@@ -203,10 +203,10 @@ _Actuellement, le serveur de base de données pourrait être arrêté pour cette
 
 ### Document 5 - Événements redoutés
 
-|                      |                       |                                                                                                                       |
-| -------------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Exemple : scénario 1 | Usurpation d'identité | Niveau de gravité : **3** (important) Les données confidentielles peuvent être exploitées par une entité malveillante |
-| ...                  | ...                   |                                                                                                                       |
+| Valeur métier ou scénario | Événement redouté     | Impacts                                                                         | Niveau gravité    |
+| ------------------------- | --------------------- | ------------------------------------------------------------------------------- | ----------------- |
+| Exemple : scénario 1      | Usurpation d'identité | Les données confidentielles peuvent être exploitées par une entité malveillante | **3** (important) |
+| ...                       | ...                   |                                                                                 |                   |
 
 ## Cours - Typologie des risques et leurs impacts
 
