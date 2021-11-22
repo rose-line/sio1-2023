@@ -118,7 +118,7 @@ On souhaite maintenant identifier les risques liés au traitement des DCP dans l
 
 La première phase du PIA repose sur la compréhension du contexte.
 
-Note : les documents associés sont présentés plus bas.
+Note : les documents associés sont présentés plus bas. Aidez-vous également des éléments de cours présentés à la fin.
 
 1. (Doc. 1, 2) **Identifiez, dans la description du contexte, les éléments permettant d'identifier les vulnérabilités liées au traitement des DCP.**
 
