@@ -20,7 +20,7 @@ int texte = scan.nextLine();
 System.out.println("Vous avez écrit : " + texte);
 ```
 
-    NB : Pour que ça fonctionne effectivement avec VS Code, il y aura peut-être une petite modification à effectuer : ouvrez `launch.json` (le fichier des configurations de lancement, trouvé dans le répertoire `.vscode` ou en cliquant sur le bouton "rouage" dans le panneau de débogage), et changez le paramètre `"console": "internalConsole"` en `"console": "integratedTerminal"`. Cela va forcer la sortie de votre programme sur le terminal intégré plutôt que sur la console de débogage intégrée (qui ne gère pas les entrées au clavier).
+NB : Pour que ça fonctionne effectivement avec VS Code, il y aura peut-être une petite modification à effectuer : ouvrez `launch.json` (le fichier des configurations de lancement, trouvé dans le répertoire `.vscode` ou en cliquant sur le bouton "rouage" dans le panneau de débogage), et changez le paramètre `"console": "internalConsole"` en `"console": "integratedTerminal"`. Cela va forcer la sortie de votre programme sur le terminal intégré plutôt que sur la console de débogage intégrée (qui ne gère pas les entrées au clavier).
 
 Vous aurez également besoin de générer un nombre aléatoire entre 1 et 100, comme ceci :
 
@@ -47,7 +47,7 @@ while(onContinue) {   // TANT QUE onContinue est vrai, on exécute le corps de l
   // Il n'a a pas de mise à jour de la variable dans la syntaxe de la boucle while (contrairement à for)
   // Il faut mettre à jour la variable de test "à la main" dans le corps pour que la boucle finisse par s'arrêter
   
-  if ("les conditions sont réunis pour s'arrêter") {
+  if ("les conditions sont réunies pour s'arrêter") {
     onContinue = false;
   }
 }
