@@ -16,7 +16,7 @@ Vous aurez besoin d'un objet de la classe `Scanner` pour prendre une entrée au 
 
 ```java
 Scanner scan = new Scanner(System.in);  // System.in : indique que l'on "scanne" le clavier
-int texte = scan.nextLine();
+String texte = scan.nextLine();
 System.out.println("Vous avez écrit : " + texte);
 ```
 
