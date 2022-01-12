@@ -121,8 +121,8 @@ Certains fichiers/répertoires spécifiés dans les questions peuvent ne pas exi
 2. Afficher les groupes du compte root. Quel est son groupe primaire ? Quels sont ses groupes secondaires ?
 3. Rechercher la ligne concernant le groupe `adm` dans `etc/group` ; explicitez les informations données sur cette ligne
 4. Déterminer le propriétaire et le groupe propriétaire du fichier `/etc/group`
-5. Afficher les informations du compte groupe `games`
-6. Afficher les informations de mot de passe du compte groupe `games`
+5. Afficher les informations du compte groupe `games` (ou un autre groupe quelconque si votre système ne définit pas le groupe `games`)
+6. Afficher, pour le compte groupe `games`, la ligne d'informations issue du fichier `/etc/passwd`
 7. Exécuter `su -` (différence avec `su` ?)
 8. Créer un nouveau groupe `test`
 9. Afficher les informations du compte groupe `test`
