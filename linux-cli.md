@@ -107,3 +107,47 @@ Certains fichiers/répertoires spécifiés dans les questions peuvent ne pas exi
 8. Essayer `cp /etc/passwd /var`
 9. Boum. Que se passe-t-il ?
 10. Comment ferait-on pour effectivement travailler sur une copie du fichier `/etc/passwd` ?
+
+### 6. Configurer les comptes groupes
+
+(L'importance des comptes utilisateurs et groupes en termes de sécurité ne peut pas être suffisamment soulignée)
+
+- Notions : ajouter/modifier/supprimer des groupes ; ajouter/supprimer un utilisateur à un groupe ; groupe primaire / groupes secondaires d'un utilisateur
+- Typiquement, on va créer un groupe pour chaque service, un groupe pour un projet sur lequel travaillent plusieurs personnes (potentiellement pas du même service), un groupe pour les différents titres (ingénieurs, managers, etc.) ; cela permettra une gestion individuelle des permissions sur chaque groupe
+- Commandes : `id, groups, chgrp, newgrp, grpadd, groupmod, groupdel, usermod, gpasswd`
+- Fichiers : `/etc/group`, `/etc/gshadow`
+
+1. Afficher l'ID de l'utilisateur courant et ses groupes
+2. Afficher les groupes du compte root. Quel est son groupe primaire ? Quels sont ses groupes secondaires ?
+3. Rechercher la ligne concernant le groupe `adm` dans `etc/group` ; explicitez les informations données sur cette ligne
+4. Déterminer le propriétaire et le groupe propriétaire du fichier `/etc/group`
+5. Afficher les informations du compte groupe `games`
+6. Afficher les informations de mot de passe du compte groupe `games`
+7. Exécuter `su -` (différence avec `su` ?)
+8. Créer un nouveau groupe `test`
+9. Afficher les informations du compte groupe `test`
+10. Changer le nom en `grouptest`
+11. Ajouter votre compte utilisateur personnel en tant que second membre du groupe `grouptest` *sans écraser vos autres groupes actuels* (trouvez l'option avant d'exécuter la commande)
+12. Expliquez ce que fait la commande `find / -group grouptest -exec chgrp compta {} \;`
+13. Supprimer le groupe `grouptest`
+14. Répondez à la question suivante de l'un de vos utilisateurs : « Je veux créer des fichiers qui auront pour groupe propriétaire le groupe `projet-x`. Comment je fais pour changer temporairement mon groupe primaire pour que les fichiers soient créés avec le bon groupe ? »
+
+### 7. Configurer un administrateur de groupe
+
+Créez un utilisateur `dummy`. Créez un nouveau groupe `supports` et ajoutez-y l'utilisateur `dummy`. Faites de `dummy` un administrateur du groupe. Confirmez ce nouveau statut en examinant `/etc/gshadow`. Pour tester, loggez-vous en tant que `dummy` et ajoutez l'utilisateur `bin` au groupe `supports` (vous devriez alors pouvoir le faire sans `sudo`) puis affichez les groupes de `bin`.
+
+### 8. Configurer les comptes utilisateurs
+
+- Notions : ajouter/modifier/supprimer des utilisateurs, permissions utilisateurs
+- Commandes : `useradd, passwd`
+- Fichiers : `/etc/passwd, /etc/shadow, /etc/group, /etc/gshadow`
+
+
+1. Afficher les informations du compte `bin` (y compris le shell et le répertoire utilisateur)
+2. Afficher les informations de mot de passe de votre compte (y compris le mot de passe haché)
+3. Créer un utilisateur `nadine` en spécifiant explicitement la création du répertoire utilisateur (sinon ce répertoire n'est pas forcément créé)
+4. Appliquer un mot de passe fort pour `nadine` : `couscousavecdesmerguezdanstaface`
+5. Afficher les valeurs par défaut utilisées lorsqu'un nouveau compte est créé
+6. Afficher le fichier qui contient les informations de temps d'expiration par défaut pour les mots de passe
+7. Afficher le fichier qui contient les informations sur le shell par défaut
+8. Supprimer le compte `nadine` ainsi que son répertoire utilisateur (en une seule commande)
