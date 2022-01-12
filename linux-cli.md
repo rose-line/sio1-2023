@@ -53,13 +53,13 @@ Certains fichiers/répertoires spécifiés dans les questions peuvent ne pas exi
 1. Afficher le contenu de la variable `HOME`
 2. Afficher toutes les variables shell avec leur contenu
 3. Afficher le contenu de la variable `TEST` (noter que cette variable n'a en fait aucun contenu actuellement)
-4. Changer le shell courant afin qu'un message d'erreur s'affiche quand une variable indéfinie est utilisée
+4. Configurer le shell courant afin qu'un message d'erreur s'affiche quand une variable indéfinie est utilisée (tip : étudiez la commande `set`)
 5. Modifier la variable `PATH` pour ajouter le répertoire `/opt`
 6. Créer une variable d'environnement appelée `EVENT` et lui donner la valeur "maintenant" en utilisant une seule commande
 7. Afficher toutes les variables d'environnement
 8. Créer un alias dans le shell courant pour la commande `ls` de telle sorte que ça lance la commande `ls -a`
 9. Afficher tous les alias du shell courant
-10. Supprimer l'alias défini en 8 du shell courant
+10. Supprimer l'alias défini à la question 8
 11. Afficher une liste des commandes précédemment exécutées
 12. Re-exécuter la dernière commande `ls` de l'historique
 13. Changer le nombre maximum de commandes stockées dans l'historique du shell courant (2000)
