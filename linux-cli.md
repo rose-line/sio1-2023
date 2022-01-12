@@ -106,4 +106,4 @@ Certains fichiers/répertoires spécifiés dans les questions peuvent ne pas exi
 7. Exécuter la commande correcte
 8. Essayer `cp /etc/passwd /var`
 9. Boum. Que se passe-t-il ?
-10. Comment ferait-on pour effectivement travailler sur une copie du fichier ?
+10. Comment ferait-on pour effectivement travailler sur une copie du fichier `/etc/passwd` ?
