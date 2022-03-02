@@ -151,3 +151,17 @@ Créez un utilisateur `dummy`. Créez un nouveau groupe `supports` et ajoutez-y 
 6. Afficher le fichier qui contient les informations de temps d'expiration par défaut pour les mots de passe
 7. Afficher le fichier qui contient les informations sur le shell par défaut
 8. Supprimer le compte `nadine` ainsi que son répertoire utilisateur (en une seule commande)
+
+### 9. Sécuriser les comptes utilisateurs
+
+Créer un compte utilisateur `francis` avec les contraintes suivantes :
+
+- Mot de passe fort généré aléatoirement (https://passwordsgenerator.net)
+- Groupe secondaire : `games`
+- Répertoire utilisateur : `/home/francis`
+- Doit être obligé de changer son mot de passe tous les 60 jours
+- Après un changement de mot de passe, doit attendre au moins 2 jours avant de changer à nouveau
+- Doit recevoir un avertissement à chaque login dans les 10 jours qui précèdent l'expiration du mot de passe
+- Si le mot de passe n'est toujours pas changé, doit avoir une période de « grâce » de 60 jours après expiration pendant laquelle on lui permettra de se loguer s'il change son mot de passe immédiatement à la connexion
+- Le compte doit expirer le 01/01/2024
+- Doit avoir (comme tous les utilisateurs) un mot de passe de minimum 12 caractères
