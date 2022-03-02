@@ -165,3 +165,7 @@ Créer un compte utilisateur `francis` avec les contraintes suivantes :
 - Si le mot de passe n'est toujours pas changé, doit avoir une période de « grâce » de 60 jours après expiration pendant laquelle on lui permettra de se loguer s'il change son mot de passe immédiatement à la connexion
 - Le compte doit expirer le 01/01/2024
 - Doit avoir (comme tous les utilisateurs) un mot de passe de minimum 12 caractères
+
+## 10. Configurer `sudo`
+
+Autoriser l'utilisateur `francis` à utiliser la commande `apt-get`. Vérifier que `francis` peut alors installer un package en *simulant* l'installation d'un package quelconque.
