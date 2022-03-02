@@ -64,7 +64,7 @@ Certains fichiers/répertoires spécifiés dans les questions peuvent ne pas exi
 12. Re-exécuter la dernière commande `ls` de l'historique
 13. Changer le nombre maximum de commandes stockées dans l'historique du shell courant (2000)
 14. Exécuter la commande `ps -ef` et utiliser un *pipe* pour passer la sortie à la commande `less`
-15. Afficher tous les fichiers dans la structure du répertoire `etc` (sous-répertoires inclus) qui dont le groupe propriétaire est le groupe `lp`
+15. Afficher tous les fichiers dans la structure du répertoire `etc` (sous-répertoires inclus) dont le groupe propriétaire est le groupe `lp` (ou n'importe quel autre groupe existant si le groupe `lp` n'existe pas sur votre système)
 16. Afficher tous les lignes dans le fichier `etc/passwd` qui contiennent au moins trois nombres d'affilé
 17. Afficher le fichier `etc/passwd` avec toutes les occurrences de `root` remplacées par `XXXX`
 
