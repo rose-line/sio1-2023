@@ -16,4 +16,4 @@
 
 ## SLAM2
 
-- [Cours du 22/03 : [POO - Principes de base](poo/01_poo_principes_de_base.pdf)
+- Cours du 22/02 : [POO - Principes de base](poo/01_poo_principes_de_base.pdf)
