@@ -18,4 +18,4 @@
 
 - Cours du 22/02 : [POO - Principes de base](poo/01_poo_principes_de_base.pdf)
 
-- Cours du 08/03 : [POO - Encapsulation](poo/02_encapsulation_1.pdf)
+- Cours du 08/03 : [POO - Encapsulation](poo/02_poo_encapsulation_1.pdf)
