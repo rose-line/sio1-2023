@@ -2,7 +2,8 @@
 
 ## SupDispo - Semestre 2
 
-- [TP : Linux CLI](linux-cli.md)
+- [TP : Linux CLI](supdispo2/linux-cli.md)
+- [TP : Apache HTTP Server](supdispo2/apache.md)
 
 ## Cybersécurité
 
