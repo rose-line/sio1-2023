@@ -2,12 +2,12 @@
 
 Le TP est à effectuer sur Linux CentOS 7.
 
-## Installation
+## 1. Installation
 
 - Installer et lancer le serveur _Apache HTTP Server_
 - Tester le service en affichant la page de test d'_Apache HTTP Server_ (ouvrir l'URL `localhost`)
 
-## Configuration du site Web
+## 2. Configuration du site Web
 
 On souhaite que notre page d'accueil s'affiche, plutôt que la page de test.
 
@@ -18,7 +18,7 @@ On souhaite que notre page d'accueil s'affiche, plutôt que la page de test.
 - Créer un fichier HTML basique correctement formaté et contenant un `title` et un `body` avec une balise `h1` et un paragraphe
 - Faire en sorte que ce soit la page dorénavant affichée lorsque l'on visite la racine du serveur
 
-## Virtual Hosts
+## 3. Virtual Hosts
 
 On souhaite que le server soit capable d'héberger plusieurs sites afin de réduire les coûts.
 
@@ -30,7 +30,7 @@ On souhaite que le server soit capable d'héberger plusieurs sites afin de rédu
   - l'accès à `www.mondomaine.net` arrive sur une page « Bienvenue sur mondomaine.net ! »
   - l'accès à `www.mondomaine.fr` arrive sur une page « Bienvenue sur mondomaine.fr ! »
 
-## Support PHP
+## 4. Support PHP
 
 - Mettre en place le support de PHP sur le serveur
 - Effectuer les modifications nécessaires pour pouvoir tester la bonne mise en place de PHP
