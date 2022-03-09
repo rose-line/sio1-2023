@@ -7,9 +7,9 @@
 
 ## Cybersécurité
 
-- [TP : Identifier les risques liés aux DCP](protection_dcp.md)
+- [TP : Identifier les risques liés aux DCP](cs/protection_dcp.md)
 
-- [Slides du dernier cours 30/11/2021](cybersec_20211130.pdf)
+- [Slides du dernier cours 30/11/2021](cs/cybersec_20211130.pdf)
 
 ## Programmation
 

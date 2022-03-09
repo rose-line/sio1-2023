@@ -172,7 +172,7 @@ Autoriser l'utilisateur `francis` à utiliser la commande `apt-get`. Vérifier q
 
 ## 11. Concours de craquage
 
-Téléchargez le fichier `hashed` à la racine du dépôt.
+Téléchargez le fichier [hashed](supdispo2/hashed).
 
 1. Combien de mots de passe hachés contient ce fichier (donner la commande) ?
 2. Utilisez l'outil de votre choix **en ligne de commande** pour casser les mots de passe hashés s'y trouvant. Vous pouvez utilisez la force brute et/ou un dictionnaire. Documentez votre procédure. Au final, combien de mots de passe parvenez-vous à faire sauter ?
