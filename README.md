@@ -6,7 +6,7 @@
 
 - [TP : Apache HTTP Server](supdispo2/apache.md)
 
-- [TP : jQuery](supdispo22/jquery.md)
+- [TP : jQuery](supdispo22/tp-jquery.md)
 
 ## Cybersécurité
 
