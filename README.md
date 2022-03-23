@@ -6,6 +6,8 @@
 
 - [TP : Apache HTTP Server](supdispo2/apache.md)
 
+- [TP : jQuery](supdispo22/jquery.md)
+
 ## Cybersécurité
 
 - [TP : Identifier les risques liés aux DCP](cs/protection_dcp.md)
