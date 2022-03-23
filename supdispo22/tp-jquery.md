@@ -6,8 +6,8 @@ Les fonctionnalités ci-dessous peuvent être réalisées en JS pur, voire en CS
 
 - Créez une page web ou reprenez une page web existante sur l'un de vos projets.
 - Créez un menu _dropdown_ contenant des liens vers d'autres pages du site.
-  - je clique sur le menu _dropdown_, trois possibilités s'affichent
-  - si je reclique ailleurs sur la page, le menu disparaît
+  - je place la souris dessus, trois possibilités s'affichent
+  - si je bouge la souris hors du _dropdown_, le menu disparaît
   - mais si je clique sur l'une des trois possibilités, le lien correspondant est suivi
 - mots-clés jQuery : `mouseover(), show(), mouseout()`
 
