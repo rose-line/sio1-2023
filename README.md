@@ -25,3 +25,5 @@
 - Cours du 08/03 : [POO - Encapsulation](poo/02_poo_encapsulation_1.pdf)
 
 - Cours du 22/03 : [POO - Tell, Don't Ask!](poo/02_poo_encapsulation_2.pdf)
+
+- Cours du 05/04 : [avec correction de l'exercice « Compte bancaire »](poo/02_poo_encapsulation_3.pdf)
