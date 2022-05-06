@@ -49,7 +49,7 @@ On veut restreindre l'accès au serveur sur la base de l'adresse IP.
 - Vérifier les accès dans les fichiers de log : comment sait-on que l'un des accès a été refusé ?
 - Maintenant, on souhaite que _seule la machine hôte_ ait accès à l'adresse `www.mondomaine.fr` (toutes les autres requêtes doivent être refusées) ; modifier la configuration en conséquence
 
-## Contrôle d'accès basé sur l'utilisateur
+## 7. Contrôle d'accès basé sur l'utilisateur
 
 On veut restreindre l'accès à seulement certains utilisateurs par une authentification basique (_Authtype Basic_). Le navigateur devra afficher une popup d'accès restreint en demandant un nom d'utilisateur et un mot de passe.
 
