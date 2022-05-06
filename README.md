@@ -29,3 +29,5 @@
 - Cours du 05/04 : [avec correction de l'exercice « Compte bancaire »](poo/02_poo_encapsulation_3.pdf)
 
 - Cours du 03/05 : [Arraylist](poo/03_poo_arraylist.pdf)
+
+- [Exemple basique d'utilisation d'une ListView JavaFX](https://devstory.net/11063/javafx-listview) (utilise la méthode `toString()` de la classe des objets listés pour faciliter le traitement)
